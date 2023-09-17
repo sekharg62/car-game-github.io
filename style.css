@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    height: 500px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background:url(road.jpg) ;
+    background-size: contain;
+    overflow: hidden;
+}
+#yellowcar{
+    height: 100px;
+    width: 60px;
+   
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 2s linear  infinite  ;
+
+}
+
+#yellowcar img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}
+#redcar{
+    height: 100px;
+    width: 60px;
+    
+    position: relative;
+    top: 280px;
+    left: 0px;
+}
+#redcar img{
+    height: 100px;
+}
+
+
+#score{
+    font-size: 2.2rem;
+    color: brown;
+}
+
+
+#movement{
+   padding-left: 42%;
+   
+   
+}
+#result{
+    font-family: Hobo Std;
+    padding-top: 1%;
+    background-color: rgb(137, 164, 164);
+    height: 50%;
+    width: 30%;
+    border-radius: 8px;
+    margin-top:  10% ;
+    margin-left:  37% ;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    
+}
